@@ -1,3 +1,42 @@
+body {
+	background-color: #00CED1;
+}
+
+#NavBar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #ffff00;
+}
+
+#NavBar ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+#NavBar ul li { 
+	display: inline;
+}
+
+#NavBar ul li a{
+	color: #00CED1;
+	font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+  	line-height: 45px;
+  	padding-top: 13.5px;
+  	padding-bottom: 13.5px;
+ 	padding-left: 20px;
+ 	padding-right: 20px;
+}
+
+#NavBar ul li a:hover{
+	color: #ffff00;
+	background-color: #00CED1;
+}
+
 .stick {
 	position: fixed;
 	top: 0;
