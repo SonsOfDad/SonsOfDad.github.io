@@ -1,0 +1,154 @@
+body {
+	background-color: #00CED1;
+}
+
+
+/* NavBar styling and it's classes Start here */
+#NavBar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #ffff00;
+	z-index: 1337;
+}
+
+#NavBar ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+#NavBar ul li { 
+	display: inline;
+}
+
+.NotSelected{
+	color: #00CED1;
+	font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+  	line-height: 45px;
+  	padding-top: 13.5px;
+  	padding-bottom: 13.5px;
+ 	padding-left: 20px;
+ 	padding-right: 20px;
+}
+
+.NotSelected:hover{
+	color: #ffff00;
+	background-color: #000;
+}
+
+.Selected{
+	color: #ffff00;
+	background-color: #00CED1;
+	font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+  	line-height: 45px;
+  	padding-top: 13.5px;
+  	padding-bottom: 13.5px;
+ 	padding-left: 20px;
+ 	padding-right: 20px;	
+}
+/* NavBar styling and it's classes End here
+   IndividualsInfoBar styling and it's classes Start here */
+#IndividualsInfoBar {
+	position: relative;
+	left: 0;
+	width: 100%;
+	background-color: #ffff00;
+}
+
+
+/* IndividualsInfoBar styling and it's classes End here
+   AboutUs styling and it's classes Start here */
+#AboutUs {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 500px;
+	margin-left: -250px;
+	height: 300px;
+	margin-top: -150px;
+	background-color: #ffff00;
+	opacity: 1;	
+}
+
+#Individuals {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+}
+
+.SpaceBetween {
+	position: relative;
+	height: 50px;
+	width: 100%;
+}
+
+.LeftIncomming {
+	position: relative;
+	width: 90%;
+	background-color: #ffff00;
+}
+
+.RightIncomming {
+	position: relative;
+	width: 90%;
+	background-color: #ffff00;
+	left: 10%;
+}
+
+.LeftInfo {
+	padding: 1% 3% 1% 14%;
+}
+
+.RightInfo {
+	padding: 1% 14% 1% 3%;
+}
+
+p{
+	color: #00CED1;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.InfoImg{
+	height: 150px;
+	width: 150px;
+	border-radius: 100%
+}
+
+iframe {
+	float: right;
+}
+/* AboutUs styling and it's classes End here */
+.stick {
+	position: fixed;
+	top: 0;
+}
+
+
+/* REMOVE THIS*/
+#Ed {
+	left: -90%;
+}
+
+#Two {
+	left: 100%;
+}
+#Three {
+	left: -90%;
+}
+
+#Four {
+	left: 100%;
+}
+#Five {
+	left: -90%;
+}
+
+#Six {
+	left: 100%;
+}
